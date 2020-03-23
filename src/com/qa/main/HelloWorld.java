@@ -1,11 +1,14 @@
 package com.qa.main;
 
 public class HelloWorld {
-
+	
+	static String hellovar = "Hello World!";
+	public static String writesHelloWorld() {
+		return hellovar;
+	}
+	
 	public static void main(String[] args) {
-		String helloworld = "Hello World";
-		System.out.println(helloworld);
-
+		System.out.println(writesHelloWorld());
 	}
 
 }
